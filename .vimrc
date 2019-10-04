@@ -17,6 +17,9 @@ Plugin 'beyondmarc/glsl.vim'   "for textures
 Plugin 'octol/vim-cpp-enhanced-highlight' "syntax c++
 Plugin 'scrooloose/syntastic'             "find errors
 Plugin 'vim-scripts/OmniCppComplete'      "auto comlit (Dosen't work)
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'sainnhe/vim-color-forest-night'
 "Plugin 'c.vim'
 
 
@@ -39,8 +42,8 @@ let g:syntastic_cpp_checkers  = ['gcc']
 let g:syntastic_rust_checkers = ['rustc'] 
 let g:syntastic_asm_checkers  = ['nasm']
 let g:syntastic_java_checkers = ['javac']
-
-
+let g:syntastic_python_checkers = ['bandit']
+"let g:airline_theme = 'tomorrow'
 
 let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options = '-std=c++14'
@@ -56,3 +59,6 @@ au Filetype * set tabstop=4
 au Filetype * set shiftwidth=4
 au Filetype * set softtabstop=4
 set expandtab
+
+
+colorscheme forest-night
