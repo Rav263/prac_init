@@ -42,7 +42,6 @@ let g:syntastic_cpp_checkers  = ['gcc']
 let g:syntastic_rust_checkers = ['rustc'] 
 let g:syntastic_asm_checkers  = ['nasm']
 let g:syntastic_java_checkers = ['javac']
-let g:syntastic_python_checkers = ['bandit']
 "let g:airline_theme = 'tomorrow'
 
 let g:syntastic_cpp_compiler = 'g++'
