@@ -9,6 +9,7 @@ vim some_file
 
 git config --global user.email "nickiforov.nik@gmail.com"
 git config --global user.name "Никита Никифоров"
+git config --global core.editor "vim"
 
 source ~/.bashrc
 
