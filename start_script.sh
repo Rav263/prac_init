@@ -4,6 +4,8 @@ mkdir ~/.vim/backup
 mkdir ~/.vim/swap
 mkdir ~/.vim/undo
 
+cp ./config ~/.ssh/
+
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp ./.vimrc ~/.vimrc
 

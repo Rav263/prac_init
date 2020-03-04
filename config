@@ -1,0 +1,12 @@
+UseRoaming no
+# Управление git
+Host    git.alt
+    HostName gitery.altlinux.org
+    Port 222
+    User git_rav263
+# girar - сборочница gear
+Host girar
+    HostName gyle.altlinux.org
+    Port 222
+    User git_rav263
+
